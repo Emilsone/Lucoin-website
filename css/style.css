@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+body{
+font-family: 'Karla', sans-serif;
+color: black;
+}
+
+.primary-color{
+  background-color: #03a84e;
+  color: #fff;
+
+}
+.form {
+  background: url(./images/bg-pattern-mobile.svg), white;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.hero-bg {
+ background-image: url(./images/policy-bg.jpg);
+ background-size:cover;
+ height:70vh;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  .form {
+    background-size: 45%;
+    background-position: -10% bottom;
+  }
+}
+
+.accordion-item {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.active {
+  font-weight: 700;
+}
+
+.arrow {
+  transition: all 300ms ease;
+}
+
+.title-color {
+  color: hsl(238, 29%, 16%);
+}
+
+.heading-color {
+  color: hsl(237, 12%, 33%);
+}
+
+/* .panel {
+  display: none;
+  padding-bottom: 1rem;
+  transition: all 200ms ease;
+} */
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+  padding-bottom: 1rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1rem;
+  color: hsl(240, 6%, 50%);
+}
+
+.btn {
+  font-family: inherit;
+  transition: all 200ms ease;
+}
+
+.btn:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.footer___bg{
+  background-color: #F9F8F8;
+}
