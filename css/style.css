@@ -15,6 +15,11 @@ color: black;
   color: #fff;
 
 }
+#btn-bg{
+  background-color: #03a84e;
+  color: #fff;
+
+}
 .form {
   background: url(./images/bg-pattern-mobile.svg), white;
   background-position: top;
